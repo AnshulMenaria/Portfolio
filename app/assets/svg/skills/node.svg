@@ -1,0 +1,11 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Node.js Circle Background -->
+  <circle cx="128" cy="128" r="100" fill="#68A063" />
+  <!-- Node.js Hexagon Logo -->
+  <path d="M128 85L158 108V148L128 171L98 148V108L128 85Z" fill="#FFFFFF" />
+  <path d="M128 97L112 108V142L128 153L144 142V108L128 97Z" fill="#333333" />
+  <!-- Node.js Text -->
+  <text x="128" y="200" font-size="20" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif">
+    Node.js
+  </text>
+</svg>

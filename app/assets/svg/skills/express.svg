@@ -1,0 +1,8 @@
+<svg width="256" height="100" viewBox="0 0 256 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Express.js Background -->
+  <rect x="0" y="0" width="256" height="100" fill="#000000" />
+  <!-- Express.js Text -->
+  <text x="128" y="60" font-size="32" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif">
+    Express.js
+  </text>
+</svg>
