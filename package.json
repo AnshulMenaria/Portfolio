@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-     "build": "npm install --legacy-peer-deps && next build",
+    "build": "npm install --legacy-peer-deps && next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -21,7 +21,6 @@
     "react-fast-marquee": "^1.6.2",
     "react-google-recaptcha": "^3.1.0",
     "react-icons": "^4.11.0",
-    "react-scroll": "^1.9.0",
     "react-toastify": "^10.0.4",
     "sharp": "^0.33.5"
   },
