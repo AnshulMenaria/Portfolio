@@ -51,7 +51,7 @@ export const projectsData = [
     },
     {
         id: 6,
-        name: 'CitySpace - Hospital and User Data Management System',
+        name: 'CitySpace - Hospital/User Data Management System',
         description: "Developed a comprehensive hospital management system for City Space that allows users to browse hospitals and view detailed doctor information, including their specialties, timings, and contact details. The platform also features secure document storage, enabling users to safely store and retrieve important medical records similar to Digi Locker. Admins have the capability to add new hospitals to the system, ensuring the platform is constantly updated. Hospital staff can easily schedule appointments, and doctors are provided with dedicated dashboards to manage their daily schedules efficiently. The system is designed to offer an intuitive and seamless experience for both healthcare providers and patients, with features that support smooth interactions and easy navigation across various hospital departments and cities.",
         tools: ['Php','MySQL','HTML','CSS','Bootstrap'],
         role: 'Full Stack Developer',
