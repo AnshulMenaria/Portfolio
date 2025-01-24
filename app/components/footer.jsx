@@ -21,7 +21,7 @@ function Footer() {
               className="flex items-center gap-2 uppercase hover:text-[#16f2b3]"
             >
               <CgGitFork />
-              <span>Star</span>
+              <span>REPO</span>
             </Link>
            
           </div>
