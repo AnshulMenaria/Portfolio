@@ -6,7 +6,7 @@ export const projectsData = [
         tools: ['React','Node','Express', 'MongoDB','Bootstrap','Material UI',],
         role: 'Full Stack Developer',
         associate: 'Udaipur Militay Station(Indian Army)',
-        code: '',
+        repo: 'https://github.com/AnshulMenaria/Weapon-Inventory-Management',
         demo: '',
     },
     {
@@ -14,9 +14,9 @@ export const projectsData = [
         name: 'PaperLess Documentation',
         description: "A workflow system was developed to automate task assignments and approvals. The system enabled the Head Clerk to upload tasks with initial remarks, which were routed to the assigned branch officers (Adjutant, 2IC, Quartermaster) for further input. The document was then transferred to the Commanding Officer for final approval. Once reviewed, it was returned to the branch officer, who confirmed and marked the task as completed in the system, ensuring a streamlined and transparent process.",
         tools: ['React','Node','Express','MongoDB','Bootstrap'],
-        role: 'Backend Stack Developer',
+        role: 'Backend Developer',
         associate: 'Udaipur Militay Station(Indian Army)',
-        code: '',
+        repo: 'https://github.com/AnshulMenaria/Paper-Soft',
         demo: '',
     },
     {
@@ -26,7 +26,7 @@ export const projectsData = [
         tools: ['Php','MySQL','HTML', 'CSS','Bootstrap'],
         role: 'Full Stack Developer',
         associate: 'Freelance',
-        code: '',
+        repo: '',
         demo: '',
     },
     {
@@ -36,7 +36,7 @@ export const projectsData = [
         tools: ['React','Node','Express', 'MongoDB','Bootstrap'],
         role: 'Full Stack Developer',
         associate: 'Freelance',
-        code: '',
+        repo: 'https://github.com/AnshulMenaria/Reliable-Events',
         demo: '',
     },
     {
@@ -46,7 +46,7 @@ export const projectsData = [
         tools: ['React','Node','Express', 'MongoDB','Bootstrap'],
         role: 'Full Stack Developer',
         associate: 'MohanLal Sukhadia University(Major Project)',
-        code: '',
+        repo: 'https://github.com/AnshulMenaria/Shift-Swiftly',
         demo: '',
     },
     {
@@ -56,7 +56,7 @@ export const projectsData = [
         tools: ['Php','MySQL','HTML','CSS','Bootstrap'],
         role: 'Full Stack Developer',
         associate: 'MohanLal Sukhadia University(Minor Project)',
-        code: '',
+        repo: 'https://github.com/AnshulMenaria/CitySpace',
         demo: '',
     },
     
