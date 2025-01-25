@@ -18,7 +18,7 @@ export const experiences = [
     duration: "JUL 2024 - OCT 2024"
   },
   {
-    id: 3,
+    id: 4,
     title: "MERN Stack Developer",
     company: "MATE-Marvik Solutions PVT. LTD.",
     duration: "Jun 2024 - Jul 2024"
