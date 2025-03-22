@@ -97,25 +97,76 @@ function HeroSection() {
                 <span className="text-gray-400">{`',`}</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">
-                <span className=" text-white">skills:</span>
+                <span className="text-white">skills:</span>
+                <span className="text-gray-400">{`{`}</span>
+              </div>
+
+              <div className="ml-8 lg:ml-12 mr-2">
+                <span className="text-white">Cloud & DevOps:</span>
                 <span className="text-gray-400">{`['`}</span>
-                <span className="text-amber-300">ReactJS</span>
+                <span className="text-amber-300">AWS</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">NodeJS</span>
-                <span className="text-gray-400">{"', '"}</span>        
-                <span className="text-amber-300">Express</span>
+                <span className="text-amber-300">EC2</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">MongoDB</span>
+                <span className="text-amber-300">VPC</span>
                 <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">IAM</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">S3</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">SQS</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">SNS</span>
+                <span className="text-gray-400">{"'],"}</span>
+              </div>
+
+              <div className="ml-8 lg:ml-12 mr-2">
+                <span className="text-white">Programming & Scripting:</span>
+                <span className="text-gray-400">{`['`}</span>
                 <span className="text-amber-300">Python</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Php</span>
+                <span className="text-amber-300">JavaScript</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">MySql</span>
+                <span className="text-amber-300">PHP</span>
+                <span className="text-gray-400">{"'],"}</span>
+              </div>
+
+              <div className="ml-8 lg:ml-12 mr-2">
+                <span className="text-white">Frontend Development:</span>
+                <span className="text-gray-400">{`['`}</span>
+                <span className="text-amber-300">React.js</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">BootStrap</span>
+                <span className="text-amber-300">HTML</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">CSS</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Bootstrap</span>
+                <span className="text-gray-400">{"'],"}</span>
+              </div>
+
+              <div className="ml-8 lg:ml-12 mr-2">
+                <span className="text-white">Backend Development:</span>
+                <span className="text-gray-400">{`['`}</span>
+                <span className="text-amber-300">Node.js</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Express.js</span>
+                <span className="text-gray-400">{"'],"}</span>
+              </div>
+
+              <div className="ml-8 lg:ml-12 mr-2">
+                <span className="text-white">Databases:</span>
+                <span className="text-gray-400">{`['`}</span>
+                <span className="text-amber-300">MongoDB</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">MySQL</span>
                 <span className="text-gray-400">{"']"}</span>
               </div>
+
+              <div className="ml-4 lg:ml-8 mr-2">
+                <span className="text-gray-400">{`},`}</span>
+              </div>
+
+
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">hardWorker:</span>
                 <span className="text-orange-400">true</span>
