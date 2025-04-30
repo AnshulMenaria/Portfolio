@@ -2,7 +2,9 @@ export const personalData = {
   name: "ANSUL MENARIA",
   profile: '/Anshul-Profile.png',
   designation: "Software Developer",
-  description: "I am Ansul Menaria, a dedicated and skilled MERN stack developer with expertise in building dynamic, user-centric web applications. With a solid foundation in technologies like React.js, Node.js, Express.js, and MongoDB, I have successfully developed impactful projects, including a Weapon & Inventory Management System for the Indian Army and a Paperless Documentation System to streamline operational workflows. Currently enhancing my skills in AWS Cloud Computing and DevOps, I am driven by a relentless curiosity to explore new technologies and solve challenging problems. With a strong commitment to innovation and a collaborative mindset, I am eager to contribute to exciting projects that make a difference. Connect with me to discuss opportunities or collaborations that align with my expertise.",
+  description: `I am Ansul Menaria, a dedicated and skilled developer with strong expertise in both AWS Cloud Computing and the MERN stack. I have successfully designed and developed impactful, end-to-end web applications, including a Weapon & Inventory Management System and a Paperless Documentation System for the Indian Army at Udaipur Military Station. With a solid grasp of full-stack development and cloud infrastructure, I build scalable, secure, and user-centric solutions that solve real-world problems.
+
+  Currently interning in an AWS DevOps role, I have gained hands-on experience with cloud services, infrastructure automation, and containerization using Docker. I am passionate about exploring new technologies, solving complex challenges, and continuously improving my skill set. With a collaborative mindset and a strong drive for innovation, I am eager to contribute to meaningful projects that deliver real impact.`,
   email: 'anshulmenaria@gmail.com',
   phone: '+919145946510',
   address: 'Fatehnagar(Udaipur),Rajasthan,313205',
