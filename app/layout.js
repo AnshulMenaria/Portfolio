@@ -15,7 +15,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Ansul Menaria | MERN & Cloud Developer Portfolio",
   description:
-    "This is the official portfolio of Ansul Menaria (also known as Anshul Menaria), a skilled Full Stack Developer with expertise in MERN stack, AWS, and DevOps.",
+    "This is the official portfolio of Ansul Menaria (also known as Anshul Menaria), a Full Stack Developer with MERN stack, AWS, and DevOps expertise.",
   keywords: [
     "Ansul Menaria",
     "Anshul Menaria",
@@ -27,7 +27,7 @@ export const metadata = {
     "Indian Developer",
     "Udaipur Developer",
   ],
-  authors: [{ name: "Ansul Menaria" }],
+  authors: [{ name: "Ansul Menaria (Anshul Menaria)" }],
   creator: "Ansul Menaria",
   publisher: "Ansul Menaria",
   metadataBase: new URL("https://ansulmenaria-portfolio.netlify.app"),
@@ -37,7 +37,7 @@ export const metadata = {
   openGraph: {
     title: "Ansul Menaria | Cloud & MERN Stack Developer",
     description:
-      "Explore the portfolio of Ansul Menaria showcasing cloud projects, full-stack applications, and professional experience.",
+      "Explore the portfolio of Ansul Menaria (Anshul Menaria) showcasing cloud projects, full-stack applications, and experience.",
     url: "https://ansulmenaria-portfolio.netlify.app",
     siteName: "Ansul Menaria Portfolio",
     type: "website",
@@ -63,6 +63,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        {/* ✅ Extra meta for alias */}
+        <meta name="author" content="Ansul Menaria (Anshul Menaria)" />
+        <meta name="alias" content="Anshul Menaria" />
+      </head>
       <body className={inter.className}>
         <ToastContainer />
         <main className="min-h-screen relative mx-auto px-6 sm:px-12 lg:max-w-[70rem] xl:max-w-[76rem] 2xl:max-w-[92rem] text-white">
@@ -71,7 +76,6 @@ export default function RootLayout({ children }) {
           <ScrollToTop />
         </main>
         <Footer />
-        {/* ✅ GTM placed at the end of <body> */}
         <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM} />
       </body>
     </html>
