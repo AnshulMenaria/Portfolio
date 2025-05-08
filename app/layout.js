@@ -1,10 +1,12 @@
-import { GoogleTagManager } from "@next/third-parties/google";
 import { Inter } from "next/font/google";
+import { GoogleTagManager } from "@next/third-parties/google";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+
+import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import ScrollToTop from "./components/helper/scroll-to-top";
-import Navbar from "./components/navbar";
+
 import "./css/card.scss";
 import "./css/globals.scss";
 
@@ -29,6 +31,9 @@ export const metadata = {
   creator: "Ansul Menaria",
   publisher: "Ansul Menaria",
   metadataBase: new URL("https://ansulmenaria-portfolio.netlify.app"),
+  verification: {
+    google: "HFyS21yEIAA-_WywtRCWPEqacmIWTByik46TSAKxARI",
+  },
   openGraph: {
     title: "Ansul Menaria | Cloud & MERN Stack Developer",
     description:
@@ -66,8 +71,9 @@ export default function RootLayout({ children }) {
           <ScrollToTop />
         </main>
         <Footer />
+        {/* ✅ GTM placed at the end of <body> */}
+        <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM} />
       </body>
-      <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM} />
     </html>
   );
 }
