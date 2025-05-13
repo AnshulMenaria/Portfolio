@@ -10,15 +10,15 @@ import Projects from "./components/homepage/projects";
 import Skills from "./components/homepage/skills";
 
 export const metadata = {
-  title: "Ansul Menaria | Cloud & MERN Stack Developer",
+  title: "Ansul Menaria | Cloud Architect & Full Stack Developer",
   description:
-    "Official portfolio of Ansul Menaria (also known as Anshul Menaria) - Cloud & MERN Stack Developer. Projects, blogs, skills, and experiences.",
+    "Official portfolio of Ansul Menaria (also known as Anshul Menaria) - Cloud Architect & Full Stack Developer. Projects, blogs, skills, and experiences.",
   keywords:
     "Ansul Menaria, Anshul Menaria, Cloud Developer, MERN Stack, AWS, DevOps, Portfolio, Udaipur",
   authors: [{ name: "Ansul Menaria (Anshul Menaria)" }],
   robots: "index, follow",
   openGraph: {
-    title: "Ansul Menaria | Cloud & MERN Stack Developer",
+    title: "Ansul Menaria | Cloud Architect & Full Stack Developer",
     description:
       "Portfolio of Ansul Menaria (aka Anshul Menaria) showcasing cloud projects, full-stack development, and professional experience.",
     type: "website",

@@ -6,7 +6,7 @@ function Navbar() {
       <div className="flex items-center justify-between py-5">
         <div className="flex flex-shrink-0 items-center">
           <Link
-            href="/"
+            href="/"  
             className=" text-cyan-500 text-3xl font-bold"
           >
             ANSUL MENARIA

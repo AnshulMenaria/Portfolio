@@ -13,7 +13,7 @@ import "./css/globals.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Ansul Menaria | MERN & Cloud Developer Portfolio",
+  title: "Ansul Menaria | Cloud Architect & Full Stack Developer",
   description:
     "This is the official portfolio of Ansul Menaria (also known as Anshul Menaria), a Full Stack Developer with MERN stack, AWS, and DevOps expertise.",
   keywords: [
@@ -35,7 +35,7 @@ export const metadata = {
     google: "HFyS21yEIAA-_WywtRCWPEqacmIWTByik46TSAKxARI",
   },
   openGraph: {
-    title: "Ansul Menaria | Cloud & MERN Stack Developer",
+    title: "Ansul Menaria | Cloud Architect & Full Stack Developer",
     description:
       "Explore the portfolio of Ansul Menaria (Anshul Menaria) showcasing cloud projects, full-stack applications, and experience.",
     url: "https://ansulmenaria-portfolio.netlify.app",
