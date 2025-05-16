@@ -12,6 +12,6 @@ export const personalData = {
   facebook: 'https://www.facebook.com/share/15hLzDWNLe/?mibextid=wwXIfr',
   linkedIn: 'https://www.linkedin.com/in/ansul-menaria/',
   twitter: 'https://twitter.com/anshul_menaria',
-  resume: "https://drive.google.com/file/d/1bE5xg9F2qHVU2Js3BVps-4zJGJNgI-CU/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1njKZwSzgPyYImsPYwz3UWY4rwBQ33o1c/view?usp=sharing",
   devUsername: "said7388",
 }
