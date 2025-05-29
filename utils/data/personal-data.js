@@ -2,9 +2,10 @@ export const personalData = {
   name: "ANSUL MENARIA",
   profile: '/Anshul-Profile.png',
   designation: "Software Developer",
-  description: `I am Ansul Menaria, a dedicated and skilled developer with strong expertise in both AWS Cloud Computing and the MERN stack. I have successfully designed and developed impactful, end-to-end web applications, including a Weapon & Inventory Management System and a Paperless Documentation System for the Indian Army at Udaipur Military Station. With a solid grasp of full-stack development and cloud infrastructure, I build scalable, secure, and user-centric solutions that solve real-world problems.
+  description: `<p>I am Ansul Menaria, a passionate developer specializing in Cloud & DevOps and Full Stack web development. I have practical experience working with technologies such as AWS, Docker, Kubernetes, and the MERN stack. I have designed and developed scalable, secure, and efficient full-stack applications. Notably, I contributed to building a Weapon & Inventory Management System and a Paperless Documentation System for the Indian Army at Udaipur Military Station. These projects sharpened my skills in delivering real-world software solutions that are both impactful and maintainable.</p>
+  
+  </br><p>Currently, I am interning in an AWS DevOps role, focusing on leveraging cloud services, implementing CI/CD pipelines, and automating infrastructure using Docker and Kubernetes. I am expanding my expertise in container orchestration and exploring version control automation through GitHub Actions. I enjoy solving complex problems, learning new technologies, and contributing meaningfully to innovative projects. I am dedicated to continuous growth and eager to apply my skills in challenging environments to drive technology success.</p>`,
 
-  Currently interning in an AWS DevOps role, I have gained hands-on experience with cloud services, infrastructure automation, and containerization using Docker. I am passionate about exploring new technologies, solving complex challenges, and continuously improving my skill set. With a collaborative mindset and a strong drive for innovation, I am eager to contribute to meaningful projects that deliver real impact.`,
   email: 'anshulmenaria@gmail.com',
   phone: '+919145946510',
   address: 'Fatehnagar(Udaipur),Rajasthan,313205',
@@ -12,6 +13,6 @@ export const personalData = {
   facebook: 'https://www.facebook.com/share/15hLzDWNLe/?mibextid=wwXIfr',
   linkedIn: 'https://www.linkedin.com/in/ansul-menaria/',
   twitter: 'https://twitter.com/anshul_menaria',
-  resume: "https://drive.google.com/file/d/1njKZwSzgPyYImsPYwz3UWY4rwBQ33o1c/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1HTZAlpMSGoEuU_HueQtihLr8Qv0qmGST/view?usp=sharing",
   devUsername: "said7388",
-}
+};

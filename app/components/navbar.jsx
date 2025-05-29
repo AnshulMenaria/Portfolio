@@ -17,7 +17,7 @@ function Navbar() {
           <li>
             <Link
               className="block px-4 py-2 no-underline outline-none hover:no-underline"
-              href="#about"
+              href="/#about"
             >
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
                 ABOUT
@@ -27,7 +27,7 @@ function Navbar() {
           <li>
             <Link
               className="block px-4 py-2 no-underline outline-none hover:no-underline"
-              href="#experience"
+              href="/#experience"
             >
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
                 EXPERIENCE
@@ -37,7 +37,7 @@ function Navbar() {
           <li>
             <Link
               className="block px-4 py-2 no-underline outline-none hover:no-underline"
-              href="#skills"
+              href="/#skills"
             >
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
                 SKILLS
@@ -47,7 +47,7 @@ function Navbar() {
           <li>
             <Link
               className="block px-4 py-2 no-underline outline-none hover:no-underline"
-              href="#education"
+              href="/#education"
             >
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
                 EDUCATION
@@ -57,7 +57,7 @@ function Navbar() {
           <li>
             <Link
               className="block px-4 py-2 no-underline outline-none hover:no-underline"
-              href="#blog"
+              href="/#blog"
             >
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
                 BLOGS
@@ -67,7 +67,7 @@ function Navbar() {
           <li>
             <Link
               className="block px-4 py-2 no-underline outline-none hover:no-underline"
-              href="#projects"
+              href="/#projects"
             >
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
                 PROJECTS
