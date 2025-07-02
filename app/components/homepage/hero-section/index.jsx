@@ -121,6 +121,10 @@ function HeroSection() {
                 <span className="text-amber-300">CI/CD Pipelines</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">GitHub Actions</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Prometheus</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Grafana</span>
                 <span className="text-gray-400">{"'],"}</span>
               </div>
 
