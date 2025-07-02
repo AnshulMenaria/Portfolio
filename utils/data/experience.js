@@ -1,7 +1,7 @@
 export const experiences = [
   {
     id: 1,
-    title: 'AWS Cloud Architect & DevOps Intern',
+    title: 'Cloud Architect & DevOps Engineer Intern',
     company: "REGex Software Services",
     duration: "Dec 2024 - Present"
   },

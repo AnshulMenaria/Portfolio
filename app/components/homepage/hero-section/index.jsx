@@ -19,7 +19,7 @@ function HeroSection() {
             <span className="text-pink-500">{personalData.name}</span>,<br />
             {`I'm a `}
             <span className="text-[#16f2b3]">
-              Cloud & DevOps Engineer and Full Stack Developer
+              Cloud Architect & DevOps Engineer and A Full Stack Developer
             </span>
             .
           </h1>
@@ -118,9 +118,11 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Kubernetes</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">CI/CD Pipelines</span>
+                <span className="text-amber-300">CI/CD Pipelines(Jenkins)</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">GitHub Actions</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Cloud Watch</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Prometheus</span>
                 <span className="text-gray-400">{"', '"}</span>
@@ -169,6 +171,15 @@ function HeroSection() {
                 <span className="text-amber-300">MySQL</span>
                 <span className="text-gray-400">{"']"}</span>
               </div>
+              <div className="ml-8 lg:ml-12 mr-2">
+                <span className="text-white">Version Control:</span>
+                <span className="text-gray-400">{`['`}</span>
+                <span className="text-amber-300">Git</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">GitHub</span>
+                <span className="text-gray-400">{"']"}</span>
+              </div>
+
 
               <div className="ml-4 lg:ml-8 mr-2">
                 <span className="text-gray-400">{`},`}</span>
