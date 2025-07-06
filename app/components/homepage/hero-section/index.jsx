@@ -110,20 +110,32 @@ function HeroSection() {
               </div>
 
               <div className="ml-8 lg:ml-12 mr-2">
-                <span className="text-white">Cloud & DevOps:</span>
+                <span className="text-white">Cloud Platforms:</span>
                 <span className="text-gray-400">{`['`}</span>
                 <span className="text-amber-300">AWS</span>
-                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-gray-400">{"'],"}</span>
+              </div>
+
+              <div className="ml-8 lg:ml-12 mr-2">
+                <span className="text-white">DevOps & Automation:</span>
+                <span className="text-gray-400">{`['`}</span>
                 <span className="text-amber-300">Docker</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Kubernetes</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">CI/CD Pipelines(Jenkins)</span>
+                <span className="text-gray-300">{"', '"}</span>
+                <span className="text-amber-300">Jenkins</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">GitHub Actions</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Cloud Watch</span>
+                <span className="text-amber-300">Terraform</span>
                 <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Ansible</span>
+                <span className="text-gray-400">{"'],"}</span>
+              </div>
+
+              <div className="ml-8 lg:ml-12 mr-2">
+                <span className="text-white">Monitoring:</span>
+                <span className="text-gray-400">{`['`}</span>
                 <span className="text-amber-300">Prometheus</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Grafana</span>
@@ -131,13 +143,13 @@ function HeroSection() {
               </div>
 
               <div className="ml-8 lg:ml-12 mr-2">
-                <span className="text-white">Programming & Scripting Languages:</span>
+                <span className="text-white">Programming & Scripting:</span>
                 <span className="text-gray-400">{`['`}</span>
                 <span className="text-amber-300">Python</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">JavaScript</span>
-                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">PHP</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">JavaScript</span>
                 <span className="text-gray-400">{"'],"}</span>
               </div>
 
@@ -171,6 +183,7 @@ function HeroSection() {
                 <span className="text-amber-300">MySQL</span>
                 <span className="text-gray-400">{"']"}</span>
               </div>
+
               <div className="ml-8 lg:ml-12 mr-2">
                 <span className="text-white">Version Control:</span>
                 <span className="text-gray-400">{`['`}</span>
@@ -179,6 +192,7 @@ function HeroSection() {
                 <span className="text-amber-300">GitHub</span>
                 <span className="text-gray-400">{"']"}</span>
               </div>
+
 
 
               <div className="ml-4 lg:ml-8 mr-2">
