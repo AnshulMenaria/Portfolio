@@ -16,11 +16,10 @@ function HeroSection() {
           <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
             Hello, <br />
             This is{' '}
-            <span className="text-pink-500">{personalData.name}</span>,<br />
+            <span className="text-pink-500">{personalData.name}</span>
+            <span className="text-pink-500">.</span><br />
             {`I'm a `}
-            <span className="text-[#16f2b3]">
-              Cloud Architect, DevOps Engineer & A Full Stack Developer
-            </span>
+            <span className="text-[#16f2b3]">{personalData.designation}</span>
             .
           </h1>
 
@@ -113,6 +112,8 @@ function HeroSection() {
                 <span className="text-white">Cloud Platforms:</span>
                 <span className="text-gray-400">{`['`}</span>
                 <span className="text-amber-300">AWS</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Azure</span>
                 <span className="text-gray-400">{"'],"}</span>
               </div>
 

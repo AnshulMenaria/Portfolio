@@ -10,22 +10,22 @@ import Projects from "./components/homepage/projects";
 import Skills from "./components/homepage/skills";
 
 export const metadata = {
-  title: "Ansul Menaria | Cloud Architect & Full Stack Developer",
+  title: "Ansul Menaria | Cloud Architect, DevOps Engineer & Full Stack Developer",
   description:
-    "Official portfolio of Ansul Menaria (also known as Anshul Menaria) - Cloud Architect & Full Stack Developer. Projects, blogs, skills, and experiences.",
+    "Official portfolio of Ansul Menaria (aka Anshul Menaria) showcasing Cloud, DevOps, Full-Stack Development, and professional experience.",
   keywords:
-    "Ansul Menaria, Anshul Menaria, Cloud Developer, MERN Stack, AWS, DevOps, Portfolio, Udaipur",
+    "Ansul Menaria, Anshul Menaria, Cloud Developer, MERN Stack, AWS, DevOps, Portfolio, Udaipur, Jaipur",
   authors: [{ name: "Ansul Menaria (Anshul Menaria)" }],
   robots: "index, follow",
   openGraph: {
-    title: "Ansul Menaria | Cloud Architect & Full Stack Developer",
+    title: "Ansul Menaria | Cloud Architect, DevOps Engineer & Full Stack Developer",
     description:
-      "Portfolio of Ansul Menaria (aka Anshul Menaria) showcasing cloud projects, full-stack development, and professional experience.",
+      "Portfolio of Ansul Menaria (aka Anshul Menaria) showcasing Cloud, DevOps, Full-Stack Development, and professional experience.",
     type: "website",
     url: "https://ansulmenaria-portfolio.netlify.app/",
     images: [
       {
-        url: "https://yourdomain.com/og-image.jpg", // Replace with actual OG image
+        url: personalData.profile,
         width: 1200,
         height: 630,
         alt: "Ansul Menaria Portfolio",
@@ -41,8 +41,15 @@ export const metadata = {
 };
 
 async function getData() {
+  if (!personalData.devUsername) {
+    return [];
+  }
+
   const res = await fetch(`https://dev.to/api/articles?username=${personalData.devUsername}`);
-  if (!res.ok) throw new Error("Failed to fetch data");
+  if (!res.ok) {
+    return [];
+  }
+
   const data = await res.json();
   return data.filter((item) => item?.cover_image).sort(() => Math.random() - 0.5);
 }
@@ -68,17 +75,17 @@ export default async function Home() {
               "https://github.com/ansulmenaria",
               "https://www.linkedin.com/in/ansulmenaria",
             ],
-            jobTitle: "Full Stack Developer",
+            jobTitle: "DevOps Engineer | Cloud Architect | Full Stack Developer",
             worksFor: {
               "@type": "Organization",
-              name: "Freelance / REGex Software Services",
+              name: "ATV Tech Solutions/REGex Software Services",
             },
             alumniOf: {
-              "@type": "CollegeOrUniversity",
-              name: "Tech Educational Institute (if any)",
+              "@type": "University",
+              name: "MohanLal Sukhadia University",
             },
             description:
-              "Cloud & MERN Stack Developer from Udaipur, also known as Anshul Menaria, specializing in DevOps, AWS, and full-stack development.",
+              "Cloud & MERN Stack Developer from Udaipur/Jaipur, also known as Anshul Menaria, specializing in DevOps, AWS, and full-stack development.",
           }),
         }}
       />
