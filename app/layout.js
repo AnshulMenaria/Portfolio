@@ -33,7 +33,7 @@ export const metadata = {
   publisher: "Ansul Menaria",
   metadataBase: new URL("https://ansulmenaria-portfolio.netlify.app"),
   verification: {
-    google: "HFyS21yEIAA-_WywtRCWPEqacmIWTByik46TSAKxARI",
+    google: "cnNdQJ-gkTA7Etyi9QZ0JlzvLqzNr2w3yDSshIqsH6g",
   },
   openGraph: {
     title: "Ansul Menaria | Cloud Architect, DevOps Engineer & Full Stack Developer",

@@ -36,7 +36,7 @@ export const metadata = {
     canonical: "https://ansulmenaria-portfolio.netlify.app/",
   },
   verification: {
-    google: "HFyS21yEIAA-_WywtRCWPEqacmIWTByik46TSAKxARI",
+    google: "cnNdQJ-gkTA7Etyi9QZ0JlzvLqzNr2w3yDSshIqsH6g",
   },
 };
 
