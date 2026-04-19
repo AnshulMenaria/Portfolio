@@ -12,7 +12,7 @@ import Skills from "./components/homepage/skills";
 export const metadata = {
   title: "Ansul Menaria | Cloud Architect, DevOps Engineer & Full Stack Developer",
   description:
-    "Official portfolio of Ansul Menaria (aka Anshul Menaria) showcasing Cloud, DevOps, Full-Stack Development, and professional experience.",
+    "Who I am? I am Ansul Menaria (aka Anshul) from Udaipur, Rajasthan. An End-to-End Engineer who converts \"It works on my machine\" into industrial-grade production and transforms caffeine-fueled logic into unbreakable cloud systems.",
   keywords:
     "Ansul Menaria, Anshul Menaria, Cloud Developer, MERN Stack, AWS, DevOps, Portfolio, Udaipur, Jaipur",
   authors: [{ name: "Ansul Menaria (Anshul Menaria)" }],
@@ -20,7 +20,7 @@ export const metadata = {
   openGraph: {
     title: "Ansul Menaria | Cloud Architect, DevOps Engineer & Full Stack Developer",
     description:
-      "Portfolio of Ansul Menaria (aka Anshul Menaria) showcasing Cloud, DevOps, Full-Stack Development, and professional experience.",
+      "Who I am? I am Ansul Menaria (aka Anshul) from Udaipur, Rajasthan. An End-to-End Engineer who converts \"It works on my machine\" into industrial-grade production and transforms caffeine-fueled logic into unbreakable cloud systems.",
     type: "website",
     url: "https://ansulmenaria-portfolio.netlify.app/",
     images: [
@@ -85,7 +85,7 @@ export default async function Home() {
               name: "MohanLal Sukhadia University",
             },
             description:
-              "Cloud & MERN Stack Developer from Udaipur/Jaipur, also known as Anshul Menaria, specializing in DevOps, AWS, and full-stack development.",
+              "Ansul Menaria (aka Anshul) from Udaipur, Rajasthan. Cloud Architect, DevOps Engineer & Full Stack Developer specializing in AWS, Azure, and MERN stack.",
           }),
         }}
       />
