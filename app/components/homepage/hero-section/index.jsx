@@ -3,7 +3,7 @@
 import { personalData } from "@/utils/data/personal-data";
 import Link from "next/link";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
-import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaTwitterSquare } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
 
@@ -51,6 +51,13 @@ function HeroSection() {
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <FaTwitterSquare size={30} />
+            </Link>
+            <Link
+              href={personalData.instagram}
+              target="_blank"
+              className="transition-all text-pink-500 hover:scale-125 duration-300"
+            >
+              <FaInstagram size={30} />
             </Link>
           </div>
 
@@ -100,7 +107,7 @@ function HeroSection() {
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
                 <span className="text-gray-400">{`'`}</span>
-                <span className="text-amber-300">Ansul Menaria</span>
+                <span className="text-amber-300">Ansul Menaria (aka Anshul)</span>
                 <span className="text-gray-400">{`',`}</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">

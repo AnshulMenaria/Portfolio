@@ -16,7 +16,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Ansul Menaria | Cloud Architect, DevOps Engineer & Full Stack Developer",
   description:
-    "Who I am? I am Ansul Menaria (aka Anshul) from Udaipur, Rajasthan. An End-to-End Engineer who converts \"It works on my machine\" into industrial-grade production and transforms caffeine-fueled logic into unbreakable cloud systems.",
+    "Who I am? I am Ansul Menaria (aka Anshul) from Fatehnagar (Udaipur), Rajasthan. An End-to-End Engineer who converts \"It works on my machine\" into industrial-grade production and transforms caffeine-fueled logic into unbreakable cloud systems.",
   keywords: [
     "Ansul Menaria",
     "Anshul Menaria",
@@ -28,9 +28,9 @@ export const metadata = {
     "Indian Developer",
     "Udaipur Developer",
   ],
-  authors: [{ name: "Ansul Menaria (Anshul Menaria)" }],
-  creator: "Ansul Menaria",
-  publisher: "Ansul Menaria",
+  authors: [{ name: "Ansul Menaria (aka Anshul)" }],
+  creator: "Ansul Menaria (aka Anshul)",
+  publisher: "Ansul Menaria (aka Anshul)",
   metadataBase: new URL("https://ansulmenaria-portfolio.netlify.app"),
   verification: {
     google: "cnNdQJ-gkTA7Etyi9QZ0JlzvLqzNr2w3yDSshIqsH6g",
@@ -38,7 +38,7 @@ export const metadata = {
   openGraph: {
     title: "Ansul Menaria | Cloud Architect, DevOps Engineer & Full Stack Developer",
     description:
-      "Who I am? I am Ansul Menaria (aka Anshul) from Udaipur, Rajasthan. An End-to-End Engineer who converts \"It works on my machine\" into industrial-grade production and transforms caffeine-fueled logic into unbreakable cloud systems.",
+      "Who I am? I am Ansul Menaria (aka Anshul) from Fatehnagar (Udaipur), Rajasthan. An End-to-End Engineer who converts \"It works on my machine\" into industrial-grade production and transforms caffeine-fueled logic into unbreakable cloud systems.",
     url: "https://ansulmenaria-portfolio.netlify.app",
     siteName: "Ansul Menaria Portfolio",
     type: "website",

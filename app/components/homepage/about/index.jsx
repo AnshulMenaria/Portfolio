@@ -16,7 +16,7 @@ function AboutSection() {
             Who I am?
           </p>
           <div
-            className="text-gray-200 text-sm lg:text-lg"
+            className="text-gray-200 text-sm lg:text-lg text-justify"
             dangerouslySetInnerHTML={{ __html: personalData.description }}
           />
         </div>
